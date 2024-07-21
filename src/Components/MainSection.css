@@ -1,0 +1,43 @@
+/* General styles for the MainSection */
+.main-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .photo-card {
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .photo-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .photo-caption {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #333;
+  }
+  #ejercicios {
+    padding-top: 80px; /* Para compensar el height del navbar fijo */
+  }
+  
+  
+  /* Responsive styles for mobile devices */
+  @media (max-width: 768px) {
+    .main-section {
+      flex-direction: column;
+    }
+  
+    .photo-card {
+      width: 90%;
+    }
+  }
+  
